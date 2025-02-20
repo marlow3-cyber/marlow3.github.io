@@ -1,0 +1,57 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+body {
+	font-family:Verdana, Garamond;
+    background:#4b85e3;
+    color:#754526;	
+}
+
+
+div#container {
+	margin:auto;
+    margin-top:50px;
+    width:900px;
+    border:10px #a6929c;
+    background:#f59acb;
+    padding:30px;
+}
+
+
+header {
+    font-family:'Century Gothic';
+    background:#dbf792;
+    border:1px solid #000000;
+    padding:5px;
+    border-radius:60px;
+}
+
+
+p{
+background:#f5fcf2;
+border: 1px #e69191;
+padding:20px;
+padding-top:12px;
+border-radius: 4px;
+}
+
+
+footer {
+    width:800px;
+    font-family:Verdana;
+    font-weight:bolder;
+    font-size:0.8em;
+    margin:auto;
+    padding:5px;
+}
