@@ -1,0 +1,111 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+    color:#a88932;
+    background:#000;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+@font-face {
+  font-family:'Mine';
+  src: url('CloisterBlack.ttf');
+}
+
+@font-face {
+    font-family:'kitty';
+    src: url('Cat3D.ttf');
+}
+
+body {
+	font-family:'Mine';
+    padding: 30px;
+	
+}
+
+
+#container {
+	padding:50px;
+    font-size:50px;
+
+}
+h1 {
+    text-shadow: 6px 5px #f5da90;
+    position:inherit;
+}
+
+/*
+#borderimg {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(snow-leopard.png) 30 stretch;
+}
+
+
+main {
+    justify-content: space-around;
+}
+*/
+/*leopard sounds*/
+#one {
+    color:#d4d4d4;
+    top:100px;
+    left:50px;
+    position:fixed;
+    rotate:90deg;
+}
+/*purr */
+#two {
+    color:#f0cc67;
+    letter-spacing:10px;
+    left:500px;
+    position:fixed;
+    rotate:5deg;
+}
+/*meowww */
+#three {
+    color:#c99b18;
+    top:500px;
+    
+    left:500px;
+    position:relative;
+    rotate:5deg;
+}
+/*cats walking */
+#four {
+    line-height:5em;
+    
+    font-family:'kitty';
+    color:#876400;
+    position:sticky;
+    font-size:110px;
+
+}
+/*scratch */
+#five {
+    color:#fff4d4;
+    top:500px;
+    left:500px;
+    position:static;
+    rotate:5deg;
+}
+/*rawr */
+#six {
+    top:500px;
+    left:500px;
+    position:sticky;
+    rotate:5deg;
+}
+
+footer {
+    font-size:20px;
+    color: #d4d4d4;
+    top:500px;
+    position:absolute;
+}
