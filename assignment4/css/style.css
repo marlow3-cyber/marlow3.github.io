@@ -23,6 +23,11 @@ html {
     src: url('Cat3D.ttf');
 }
 
+@font-face {
+    font-family:'classy';
+    src: url('Sunflare.ttf');
+}
+
 body {
 	font-family:'Mine';
     padding: 30px;
@@ -40,72 +45,77 @@ h1 {
     position:inherit;
 }
 
-/*
-#borderimg {
-  border: 10px solid transparent;
-  padding: 15px;
-  border-image: url(snow-leopard.png) 30 stretch;
+h3 {
+    font-family: monospace;
+    font-size:30px;
+    background: -webkit-linear-gradient(#c9c5b7, #f2bb1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-
-main {
-    justify-content: space-around;
+/*cats walking */
+#catsWalking {
+    padding:none;
+    line-height:115px;
+    font-family:'kitty';
+    color:#876400;
+    top:0px;
+    margin:0px;
+    position:sticky;
+    font-size:110px;
 }
-*/
-/*leopard sounds*/
+
+/*meowx8*/
 #one {
-    color:#d4d4d4;
-    top:100px;
-    left:50px;
-    position:fixed;
-    rotate:90deg;
+    font-family: 'classy';
+    color:#2b2513;
+    line-height:1.3em;
+    margin:auto;
+    white-space:nowrap;
+    word-spacing:10px;
+    position:relative;
+    rotate:180deg;
 }
 /*purr */
 #two {
     color:#f0cc67;
     letter-spacing:10px;
-    left:500px;
+    left:600px;
+    bottom:200px;
     position:fixed;
     rotate:5deg;
 }
 /*meowww */
 #three {
+    text-align:center;
+    font-size:150px;
     color:#c99b18;
-    top:500px;
-    
-    left:500px;
-    position:relative;
-    rotate:5deg;
+    rotate:-25deg;
 }
-/*cats walking */
-#four {
-    line-height:5em;
-    
-    font-family:'kitty';
-    color:#876400;
-    position:sticky;
-    font-size:110px;
 
-}
 /*scratch */
-#five {
+#four {
     color:#fff4d4;
     top:500px;
     left:500px;
-    position:static;
+    position:;
     rotate:5deg;
 }
 /*rawr */
-#six {
+#five {
+    color:#ffcb38;
+    font-size:400px;
     top:500px;
-    left:500px;
+    text-align:center;
     position:sticky;
-    rotate:5deg;
+    text-shadow: 10px 20px #666155;
 }
 
 footer {
     font-size:20px;
+    font-family: 'classy';
+    text-align: center;
     color: #d4d4d4;
     top:500px;
-    position:absolute;
+    position:static;
 }
