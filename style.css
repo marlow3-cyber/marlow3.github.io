@@ -11,47 +11,90 @@ html {
     line-height: 1.4em;
 }
 
+@font-face {
+    font-family: 'badboy';
+    src: url('badBoys.ttf');
+}
+
 
 body {
-	font-family:Verdana, Garamond;
-    background:#4b85e3;
-    color:#754526;	
+	background:#e2d2fc; /*#e62968;*/
+    color:#eafcd2;
+	
 }
 
 
-div#container {
-	margin:auto;
-    margin-top:50px;
-    width:900px;
-    border:10px #a6929c;
-    background:#f59acb;
-    padding:30px;
-}
-
-
-header {
-    font-family:'Century Gothic';
-    background:#dbf792;
-    border:1px solid #000000;
-    padding:5px;
-    border-radius:60px;
-}
-
-
-p{
-background:#f5fcf2;
-border: 1px #e69191;
-padding:20px;
-padding-top:12px;
-border-radius: 4px;
-}
-
-
-footer {
-    width:800px;
-    font-family:Verdana;
-    font-weight:bolder;
-    font-size:0.8em;
+#container {
+	background:#609153;
+    width:90%;
+    max-width:800px;
     margin:auto;
-    padding:5px;
+    padding:20px;
+}
+
+nav ul {
+    list-style:none;
+    padding-left:10px;
+    font-family:'badboy';
+
+
+}
+
+nav li {
+    display:inline;    
+}
+
+
+
+
+nav a {
+    color:#5d6570;
+    margin:5px;
+   /* font-family:*/
+    text-decoration:none;
+    font-size:1.5em;
+    display:inline-block;
+    background:#f9fad9;
+    padding:8px;
+    border-radius:30px;
+}
+
+
+nav a:hover {
+    color:hotpink;
+    background:#8bf56e;
+}
+
+p a {
+    color:#609153;
+}
+
+p a:hover {
+    color:hotpink;
+}
+/* 
+h1,h2 {
+   font-family: 
+}
+*/
+figure {
+    margin:0px;
+    background:#705391;
+    padding:10px; 
+}
+
+img {
+    width:100%;
+}
+
+#container {
+    
+}
+
+footer,figcaption {
+    /*font-size:10px;*/
+    font-size:0.95em;
+    color:#e096da;
+
+    
 }
