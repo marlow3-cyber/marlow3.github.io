@@ -1,0 +1,101 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	background:green;
+	
+}
+
+
+#container {
+}
+
+
+@keyframes faceColor {
+    0%   {background: #e4d7fa;}
+    25%  {background: #f3fad7;}
+    50%  {background: #d7e4fa;}
+    93%  {background: #fc8dd0;}
+    100% {background: #e4d7fa;}
+    
+}
+
+@keyframes leftEye {
+    from {height:100px;}
+    to {height:5px;}
+    from {border-radius:80%;}
+    to {border-radius:0%;}
+}
+
+div#face {
+    z-index: 1;
+    height:750px;
+    width:750px;
+    border-radius:54%;
+    border: solid black 5px;
+    background:transparent;
+    margin:auto;
+    transition:all 1s;
+}
+
+
+div#face:hover {
+    transform:skewX(15deg);
+    animation-name: faceColor;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+
+div#eyeL {
+    z-index:2;
+    background:transparent;
+    border:black 2px solid;
+    width:100px;
+    height:100px;
+    border-radius:80%;
+    top:175px;
+    left:250px;
+    position:absolute;
+    animation-name: leftEye;
+    animation-duration:400ms;
+    animation-iteration-count: 10;
+    transform: translate(50px,50px);
+    
+}
+
+div#eyeR {
+    z-index:2;
+    background:white;
+    width:190px;
+    height:190px;
+    border-radius:80%;
+    top:175px;
+    right:250px;
+    position:absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
